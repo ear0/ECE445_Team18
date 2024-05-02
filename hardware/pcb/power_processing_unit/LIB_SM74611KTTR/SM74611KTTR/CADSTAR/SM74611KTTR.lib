@@ -1,0 +1,16 @@
+.SM74611KTTR :1 ;Gate Drivers Smart Bypass Diode
+TO254P1524X483-4N
+*STM D
+*NGS
+*PLB 1="ANODE_1" 2="CATHODE_1" 3="ANODE_2" 4="CATHODE_2"
+*MXP 4
+*DFN SM74611KTTR
+~!Mouser Part Number (595-SM74611KTTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SM74611KTTR?qs=KLh5H0KA3CMOyzy9HDzESA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SM74611KTTR)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/sm74611.pdf)
+~!Height (4.83mm)
+~!3D_Model (SM74611KTTR)
+SM74611KTTR
+1.1!U 2.1!U 3.1!U 4.1!U 

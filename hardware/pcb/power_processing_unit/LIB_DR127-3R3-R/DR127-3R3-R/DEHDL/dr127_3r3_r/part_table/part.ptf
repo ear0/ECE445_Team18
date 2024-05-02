@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DR127_3R3_R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Eaton", "DR127-3R3-R" (!) = "", "INDPM125125X800N", "Inductors Precision Moulded", "704-DR127-3R3-R", "https://www.mouser.co.uk/ProductDetail/Coiltronics-Eaton/DR127-3R3-R?qs=yzwxPInThYRy49thz6gW5A%3D%3D", "EATON COILTRONICS - DR127-3R3-R - INDUCTOR, 3.3UH, 10.5A, SMD", "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf", "8 mm"
+END_PART
+
+END.

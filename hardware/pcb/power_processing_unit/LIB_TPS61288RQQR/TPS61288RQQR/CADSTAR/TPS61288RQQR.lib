@@ -1,0 +1,16 @@
+.TPS61288RQQR :1 ;18V, 15A synch boost converter
+TPS61288RQQR
+*STM IC
+*NGS
+*PLB 1="FB_1" 2="COMP" 3="PGND_1" 4="SW_1" 5="VOUT_1" 6="EN" 7="VIN_1" 8="BST" 9="SW_2" 10="AGND" 11="VCC" 12="FB_2" 13="PGND_2" 14="VOUT_2" 15="VIN_2"
+*MXP 15
+*DFN TPS61288RQQR
+~!Mouser Part Number (595-TPS61288RQQR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61288RQQR?qs=eP2BKZSCXI7ZX8saYJkaIw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS61288RQQR)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tps61288.pdf?ts=1609351344517&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fstep-up-boost%252Fboost-converters-integrated-switch%252Fproducts.html)
+~!Height (1mm)
+~!3D_Model (TPS61288RQQR)
+TPS61288RQQR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 

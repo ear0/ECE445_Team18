@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/460083/1327866/2.50/100/3/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Microchip PIC24FJ128GC010-I/PT, 16bit PIC Microcontroller, 32MHz, 128k B Flash, 100-Pin TQFP&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFP40P1400X1400X120-100N">
+<description>&lt;b&gt;100-LEAD PLASTIC THIN QUAD FLATPACK (PT)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-6.738" y="4.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="2" x="-6.738" y="4.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="3" x="-6.738" y="4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="4" x="-6.738" y="3.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="5" x="-6.738" y="3.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="6" x="-6.738" y="2.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="7" x="-6.738" y="2.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="8" x="-6.738" y="2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="9" x="-6.738" y="1.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="10" x="-6.738" y="1.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="11" x="-6.738" y="0.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="12" x="-6.738" y="0.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="13" x="-6.738" y="0" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="14" x="-6.738" y="-0.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="15" x="-6.738" y="-0.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="16" x="-6.738" y="-1.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="17" x="-6.738" y="-1.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="18" x="-6.738" y="-2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="19" x="-6.738" y="-2.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="20" x="-6.738" y="-2.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="21" x="-6.738" y="-3.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="22" x="-6.738" y="-3.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="23" x="-6.738" y="-4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="24" x="-6.738" y="-4.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="25" x="-6.738" y="-4.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="26" x="-4.8" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="27" x="-4.4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="28" x="-4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="29" x="-3.6" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="30" x="-3.2" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="31" x="-2.8" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="32" x="-2.4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="33" x="-2" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="34" x="-1.6" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="35" x="-1.2" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="36" x="-0.8" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="37" x="-0.4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="38" x="0" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="39" x="0.4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="40" x="0.8" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="41" x="1.2" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="42" x="1.6" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="43" x="2" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="44" x="2.4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="45" x="2.8" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="46" x="3.2" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="47" x="3.6" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="48" x="4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="49" x="4.4" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="50" x="4.8" y="-6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="51" x="6.738" y="-4.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="52" x="6.738" y="-4.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="53" x="6.738" y="-4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="54" x="6.738" y="-3.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="55" x="6.738" y="-3.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="56" x="6.738" y="-2.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="57" x="6.738" y="-2.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="58" x="6.738" y="-2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="59" x="6.738" y="-1.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="60" x="6.738" y="-1.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="61" x="6.738" y="-0.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="62" x="6.738" y="-0.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="63" x="6.738" y="0" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="64" x="6.738" y="0.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="65" x="6.738" y="0.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="66" x="6.738" y="1.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="67" x="6.738" y="1.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="68" x="6.738" y="2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="69" x="6.738" y="2.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="70" x="6.738" y="2.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="71" x="6.738" y="3.2" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="72" x="6.738" y="3.6" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="73" x="6.738" y="4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="74" x="6.738" y="4.4" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="75" x="6.738" y="4.8" dx="1.475" dy="0.2" layer="1" rot="R0"/>
+<smd name="76" x="4.8" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="77" x="4.4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="78" x="4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="79" x="3.6" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="80" x="3.2" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="81" x="2.8" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="82" x="2.4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="83" x="2" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="84" x="1.6" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="85" x="1.2" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="86" x="0.8" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="87" x="0.4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="88" x="0" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="89" x="-0.4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="90" x="-0.8" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="91" x="-1.2" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="92" x="-1.6" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="93" x="-2" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="94" x="-2.4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="95" x="-2.8" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="96" x="-3.2" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="97" x="-3.6" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="98" x="-4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="99" x="-4.4" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<smd name="100" x="-4.8" y="6.738" dx="1.475" dy="0.2" layer="1" rot="R90"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-7.725" y1="7.725" x2="7.725" y2="7.725" width="0.05" layer="51"/>
+<wire x1="7.725" y1="7.725" x2="7.725" y2="-7.725" width="0.05" layer="51"/>
+<wire x1="7.725" y1="-7.725" x2="-7.725" y2="-7.725" width="0.05" layer="51"/>
+<wire x1="-7.725" y1="-7.725" x2="-7.725" y2="7.725" width="0.05" layer="51"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.1" layer="51"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.1" layer="51"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.1" layer="51"/>
+<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.1" layer="51"/>
+<wire x1="-6" y1="5.6" x2="-5.6" y2="6" width="0.1" layer="51"/>
+<wire x1="-5.65" y1="5.65" x2="5.65" y2="5.65" width="0.2" layer="21"/>
+<wire x1="5.65" y1="5.65" x2="5.65" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="5.65" y1="-5.65" x2="-5.65" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="-5.65" y1="-5.65" x2="-5.65" y2="5.65" width="0.2" layer="21"/>
+<circle x="-7.275" y="5.4" radius="0.1" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PIC24FJ128GC010-I_PT">
+<wire x1="5.08" y1="58.42" x2="147.32" y2="58.42" width="0.254" layer="94"/>
+<wire x1="147.32" y1="-127" x2="147.32" y2="58.42" width="0.254" layer="94"/>
+<wire x1="147.32" y1="-127" x2="5.08" y2="-127" width="0.254" layer="94"/>
+<wire x1="5.08" y1="58.42" x2="5.08" y2="-127" width="0.254" layer="94"/>
+<text x="148.59" y="63.5" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="148.59" y="60.96" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AN33/SEG50/CTED3/CN82/RG15" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="VDD_1" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="CTED4/PMD5/LCDBIAS2/CN63/RE5" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="PMD6/LCDBIAS1/CN64/RE6" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="PMD7/LCDBIAS0/CN65/RE7" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="AN8/OA1N1/SEG32/RPI38/CN45/RC1" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="SEG51/RPI39/CN46/RC2" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="AN9/SEG33/RPI40/CN47/RC3" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="AN16/SEG52/RPI41/PMCS2/CN48/RC4" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="BGBUF2/AN17/OA1P1/C1IND/SEG0/RP21/T5CK/PMA5/CN8/RG6" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="VLCAP1/AN18/OA1N4/C1INC/RP26/PMA4/CN9/RG7" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="VLCAP2/AN19/OA1N2/C2IND/RP19/PMA3/CN10/RG8" x="0" y="-27.94" length="middle" direction="io" rot="R0"/>
+<pin name="!MCLR" x="0" y="-30.48" length="middle" direction="io" rot="R0"/>
+<pin name="AN49/OA1P0/C2INC/SEG1/DAC1/RP27/PMA2/CN11/RG9" x="0" y="-33.02" length="middle" direction="io" rot="R0"/>
+<pin name="VSS_1" x="0" y="-35.56" length="middle" direction="io" rot="R0"/>
+<pin name="VDD_2" x="0" y="-38.1" length="middle" direction="io" rot="R0"/>
+<pin name="TMS/SEG48/CTED0/CN33/RA0" x="0" y="-40.64" length="middle" direction="io" rot="R0"/>
+<pin name="SEG34/RPI33/PMCS1/CN66/RE8" x="0" y="-43.18" length="middle" direction="io" rot="R0"/>
+<pin name="AN21/SEG35/RPI34/PMA19/CN67/RE9" x="0" y="-45.72" length="middle" direction="io" rot="R0"/>
+<pin name="PGEC3/AN5/OA1OUT/C1INA/SEG2/RP18/CN7/RB5" x="0" y="-48.26" length="middle" direction="io" rot="R0"/>
+<pin name="PGED3/AN4/OA1N0/C1INB/SEG3/RP28/USBOEN/CN6/RB4" x="0" y="-50.8" length="middle" direction="io" rot="R0"/>
+<pin name="AN3/OA2OUT/C2INA/SEG4/VPIO/CN5/RB3" x="0" y="-53.34" length="middle" direction="io" rot="R0"/>
+<pin name="AN2/OA2N2/CTCMP/C2INB/SEG5/RP13/T4CK/VMIO/CTED13/CN4/RB2" x="0" y="-55.88" length="middle" direction="io" rot="R0"/>
+<pin name="PGEC1/CVREF-/AVREF-/AN1/OA2P1/SEG6/RP1/CTED12/CN3/RB1" x="0" y="-58.42" length="middle" direction="io" rot="R0"/>
+<pin name="PGED1/CVREF+/AVREF+/DVREF+/BGBUF1/AN0/SEG7/RP0/CN2/RB0" x="0" y="-60.96" length="middle" direction="io" rot="R0"/>
+<pin name="PGEC2/AN6/OA1P3/RP6/LCDBIAS3/CN24/RB6" x="45.72" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="PGED2/AN7/COM6/SEG30/RP7/CN25/RB7" x="48.26" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CVREF-/AVREF-/SEG36/PMA7/CN41/RA9" x="50.8" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CVREF+/AVREF+/SEG37/PMA6/CN42/RA10" x="53.34" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AVDD" x="55.88" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AVSS" x="58.42" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="SVSS" x="60.96" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CH0+" x="63.5" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CH0-" x="66.04" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CH1+/SVREF+" x="68.58" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CH1-/CH1SE/SVREF-" x="71.12" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="SVDD" x="73.66" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="TCK/AN26/SEG31/CN34/RA1" x="76.2" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN27/SEG53/RP31/CN76/RF13" x="78.74" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="SEG54/RPI32/CTED7/PMA18/CN75/RF12" x="81.28" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN12/COM5/SEG18/T1CK/CTED2/PMA11/CN30/RB12" x="83.82" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN13/OA2P3/SEG19/DAC2/CTED1/PMA10/CN31/RB13" x="86.36" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN14/OA2N4/SEG8/RP14/CTED5/CTPLS/PMA1/CN32/RB14" x="88.9" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN15/SEG9/RP29/T2CK/REFO/CTED6/PMA0/CN12/RB15" x="91.44" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="VSS_2" x="93.98" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="VDD_3" x="96.52" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN28/SEG38/RPI43/CN20/RD14" x="99.06" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN29/SEG39/RP5/CN21/RD15" x="101.6" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="AN11/OA2N3/SEG10/RP10/SDA2/T3CK/PMA9/CN17/RF4" x="104.14" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="CVREF/AN10/OA2P2/SEG11/RP17/SCL2/PMA8/CN18/RF5" x="106.68" y="-132.08" length="middle" direction="io" rot="R90"/>
+<pin name="VSS_4" x="152.4" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="PWRLCLK/SOSCO/SCLKI/RPI37/RC14" x="152.4" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="SOSCI/RC13" x="152.4" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="AN43/OA2N0/SEG17/RP11/VCMPST3/DMH/INT0/CN49/RD0" x="152.4" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="AN42/OA2P0/C3INC/SEG16/RP12/PMA14/CS1/CN56/RD11" x="152.4" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="AN41/C3IND/SEG15/RP3/PMA15/CS2/CN55/RD10" x="152.4" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="AN24/SEG14/RP4/DPLN/PMACK2/CN54/RD9" x="152.4" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="AN40/SEG13/RP2/RTCC/DMLN/OCTRIG1/PMA13/CN53/RD8" x="152.4" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="AN39/SEG43/RPI35/SDA1/PMBE1/CN44/RA15" x="152.4" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="AN38/SEG42/RPI36/SCL1/OCTRIG2/PMA22/CN43/RA14" x="152.4" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="VSS_3" x="152.4" y="-25.4" length="middle" direction="io" rot="R180"/>
+<pin name="OSCO/CLKO/CN22/RC15" x="152.4" y="-27.94" length="middle" direction="io" rot="R180"/>
+<pin name="OSCI/CLKI/CN23/RC12" x="152.4" y="-30.48" length="middle" direction="io" rot="R180"/>
+<pin name="VDD_4" x="152.4" y="-33.02" length="middle" direction="io" rot="R180"/>
+<pin name="TDO/AN37/SEG28/CN38/RA5" x="152.4" y="-35.56" length="middle" direction="io" rot="R180"/>
+<pin name="TDI/AN36/SEG29/PMA21/CN37/RA4" x="152.4" y="-38.1" length="middle" direction="io" rot="R180"/>
+<pin name="SEG56/SDA2/PMA20/CN36/RA3" x="152.4" y="-40.64" length="middle" direction="io" rot="R180"/>
+<pin name="SEG55/SCL2/CN35/RA2" x="152.4" y="-43.18" length="middle" direction="io" rot="R180"/>
+<pin name="D+/CN72/RG2" x="152.4" y="-45.72" length="middle" direction="io" rot="R180"/>
+<pin name="D-/CN73/RG3" x="152.4" y="-48.26" length="middle" direction="io" rot="R180"/>
+<pin name="VUSB3V3" x="152.4" y="-50.8" length="middle" direction="io" rot="R180"/>
+<pin name="VBUS/CN83/RF7" x="152.4" y="-53.34" length="middle" direction="io" rot="R180"/>
+<pin name="AN32/SEG41/RP15/CN74/RF8" x="152.4" y="-55.88" length="middle" direction="io" rot="R180"/>
+<pin name="AN31/SEG40/RP30/CN70/RF2" x="152.4" y="-58.42" length="middle" direction="io" rot="R180"/>
+<pin name="AN30/SEG12/RP16/USBID/PMA12/CN71/RF3" x="152.4" y="-60.96" length="middle" direction="io" rot="R180"/>
+<pin name="HLVDIN/SEG62/CTED8/PMD4/CN62/RE4" x="45.72" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="COM0/CTED9/PMD3/CN61/RE3" x="48.26" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="COM1/PMD2/CN60/RE2" x="50.8" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="SEG61/CTED10/CN80/RG13" x="53.34" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="SEG60/CN79/RG12" x="55.88" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="SEG59/CTED11/PMA16/CN81/RG14" x="58.42" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="COM2/PMD1/CN59/RE1" x="60.96" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="COM3/PMD0/CN58/RE0" x="63.5" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN22/SEG58/PMA17/CN40/RA7" x="66.04" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN23/SEG57/CN39/RA6" x="68.58" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="SEG49/PMD8/CN77/RG0" x="71.12" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="SEG46/PMD9/CN78/RG1" x="73.66" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="COM4/SEG47/VCMPST2/PMD10/CN69/RF1" x="76.2" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="COM7/SEG27/VCMPST1/PMD11/CN68/RF0" x="78.74" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="VBAT" x="81.28" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="VCAP" x="83.82" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN20/C3INA/SEG26/PMD15/CN16/RD7" x="86.36" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN34/OA1P2/C3INB/SEG25/PMD14/CN15/RD6" x="88.9" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN48/OA1N1/SEG24/RP20/PMRD/CN14/RD5" x="91.44" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN47/OA1P4/SEG23/RP25/PMWR/CN13/RD4" x="93.98" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN46/SEG45/PMD13/CN19/RD13" x="96.52" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN45/SEG44/RPI42/PMD12/CN57/RD12" x="99.06" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN44/OA2P4/SEG22/RP22/PMBE0/CN52/RD3" x="101.6" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN25/OA2N1/SEG21/RP23/DPH/PMACK1/CN51/RD2" x="104.14" y="63.5" length="middle" direction="io" rot="R270"/>
+<pin name="AN35/SEG20/RP24/CN50/RD1" x="106.68" y="63.5" length="middle" direction="io" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PIC24FJ128GC010-I_PT" prefix="IC">
+<description>&lt;b&gt;Microchip PIC24FJ128GC010-I/PT, 16bit PIC Microcontroller, 32MHz, 128k B Flash, 100-Pin TQFP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/30009312d.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PIC24FJ128GC010-I_PT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFP40P1400X1400X120-100N">
+<connects>
+<connect gate="G$1" pin="AN33/SEG50/CTED3/CN82/RG15" pad="1"/>
+<connect gate="G$1" pin="VDD_1" pad="2"/>
+<connect gate="G$1" pin="CTED4/PMD5/LCDBIAS2/CN63/RE5" pad="3"/>
+<connect gate="G$1" pin="PMD6/LCDBIAS1/CN64/RE6" pad="4"/>
+<connect gate="G$1" pin="PMD7/LCDBIAS0/CN65/RE7" pad="5"/>
+<connect gate="G$1" pin="AN8/OA1N1/SEG32/RPI38/CN45/RC1" pad="6"/>
+<connect gate="G$1" pin="SEG51/RPI39/CN46/RC2" pad="7"/>
+<connect gate="G$1" pin="AN9/SEG33/RPI40/CN47/RC3" pad="8"/>
+<connect gate="G$1" pin="AN16/SEG52/RPI41/PMCS2/CN48/RC4" pad="9"/>
+<connect gate="G$1" pin="BGBUF2/AN17/OA1P1/C1IND/SEG0/RP21/T5CK/PMA5/CN8/RG6" pad="10"/>
+<connect gate="G$1" pin="VLCAP1/AN18/OA1N4/C1INC/RP26/PMA4/CN9/RG7" pad="11"/>
+<connect gate="G$1" pin="VLCAP2/AN19/OA1N2/C2IND/RP19/PMA3/CN10/RG8" pad="12"/>
+<connect gate="G$1" pin="!MCLR" pad="13"/>
+<connect gate="G$1" pin="AN49/OA1P0/C2INC/SEG1/DAC1/RP27/PMA2/CN11/RG9" pad="14"/>
+<connect gate="G$1" pin="VSS_1" pad="15"/>
+<connect gate="G$1" pin="VDD_2" pad="16"/>
+<connect gate="G$1" pin="TMS/SEG48/CTED0/CN33/RA0" pad="17"/>
+<connect gate="G$1" pin="SEG34/RPI33/PMCS1/CN66/RE8" pad="18"/>
+<connect gate="G$1" pin="AN21/SEG35/RPI34/PMA19/CN67/RE9" pad="19"/>
+<connect gate="G$1" pin="PGEC3/AN5/OA1OUT/C1INA/SEG2/RP18/CN7/RB5" pad="20"/>
+<connect gate="G$1" pin="PGED3/AN4/OA1N0/C1INB/SEG3/RP28/USBOEN/CN6/RB4" pad="21"/>
+<connect gate="G$1" pin="AN3/OA2OUT/C2INA/SEG4/VPIO/CN5/RB3" pad="22"/>
+<connect gate="G$1" pin="AN2/OA2N2/CTCMP/C2INB/SEG5/RP13/T4CK/VMIO/CTED13/CN4/RB2" pad="23"/>
+<connect gate="G$1" pin="PGEC1/CVREF-/AVREF-/AN1/OA2P1/SEG6/RP1/CTED12/CN3/RB1" pad="24"/>
+<connect gate="G$1" pin="PGED1/CVREF+/AVREF+/DVREF+/BGBUF1/AN0/SEG7/RP0/CN2/RB0" pad="25"/>
+<connect gate="G$1" pin="PGEC2/AN6/OA1P3/RP6/LCDBIAS3/CN24/RB6" pad="26"/>
+<connect gate="G$1" pin="PGED2/AN7/COM6/SEG30/RP7/CN25/RB7" pad="27"/>
+<connect gate="G$1" pin="CVREF-/AVREF-/SEG36/PMA7/CN41/RA9" pad="28"/>
+<connect gate="G$1" pin="CVREF+/AVREF+/SEG37/PMA6/CN42/RA10" pad="29"/>
+<connect gate="G$1" pin="AVDD" pad="30"/>
+<connect gate="G$1" pin="AVSS" pad="31"/>
+<connect gate="G$1" pin="SVSS" pad="32"/>
+<connect gate="G$1" pin="CH0+" pad="33"/>
+<connect gate="G$1" pin="CH0-" pad="34"/>
+<connect gate="G$1" pin="CH1+/SVREF+" pad="35"/>
+<connect gate="G$1" pin="CH1-/CH1SE/SVREF-" pad="36"/>
+<connect gate="G$1" pin="SVDD" pad="37"/>
+<connect gate="G$1" pin="TCK/AN26/SEG31/CN34/RA1" pad="38"/>
+<connect gate="G$1" pin="AN27/SEG53/RP31/CN76/RF13" pad="39"/>
+<connect gate="G$1" pin="SEG54/RPI32/CTED7/PMA18/CN75/RF12" pad="40"/>
+<connect gate="G$1" pin="AN12/COM5/SEG18/T1CK/CTED2/PMA11/CN30/RB12" pad="41"/>
+<connect gate="G$1" pin="AN13/OA2P3/SEG19/DAC2/CTED1/PMA10/CN31/RB13" pad="42"/>
+<connect gate="G$1" pin="AN14/OA2N4/SEG8/RP14/CTED5/CTPLS/PMA1/CN32/RB14" pad="43"/>
+<connect gate="G$1" pin="AN15/SEG9/RP29/T2CK/REFO/CTED6/PMA0/CN12/RB15" pad="44"/>
+<connect gate="G$1" pin="VSS_2" pad="45"/>
+<connect gate="G$1" pin="VDD_3" pad="46"/>
+<connect gate="G$1" pin="AN28/SEG38/RPI43/CN20/RD14" pad="47"/>
+<connect gate="G$1" pin="AN29/SEG39/RP5/CN21/RD15" pad="48"/>
+<connect gate="G$1" pin="AN11/OA2N3/SEG10/RP10/SDA2/T3CK/PMA9/CN17/RF4" pad="49"/>
+<connect gate="G$1" pin="CVREF/AN10/OA2P2/SEG11/RP17/SCL2/PMA8/CN18/RF5" pad="50"/>
+<connect gate="G$1" pin="AN30/SEG12/RP16/USBID/PMA12/CN71/RF3" pad="51"/>
+<connect gate="G$1" pin="AN31/SEG40/RP30/CN70/RF2" pad="52"/>
+<connect gate="G$1" pin="AN32/SEG41/RP15/CN74/RF8" pad="53"/>
+<connect gate="G$1" pin="VBUS/CN83/RF7" pad="54"/>
+<connect gate="G$1" pin="VUSB3V3" pad="55"/>
+<connect gate="G$1" pin="D-/CN73/RG3" pad="56"/>
+<connect gate="G$1" pin="D+/CN72/RG2" pad="57"/>
+<connect gate="G$1" pin="SEG55/SCL2/CN35/RA2" pad="58"/>
+<connect gate="G$1" pin="SEG56/SDA2/PMA20/CN36/RA3" pad="59"/>
+<connect gate="G$1" pin="TDI/AN36/SEG29/PMA21/CN37/RA4" pad="60"/>
+<connect gate="G$1" pin="TDO/AN37/SEG28/CN38/RA5" pad="61"/>
+<connect gate="G$1" pin="VDD_4" pad="62"/>
+<connect gate="G$1" pin="OSCI/CLKI/CN23/RC12" pad="63"/>
+<connect gate="G$1" pin="OSCO/CLKO/CN22/RC15" pad="64"/>
+<connect gate="G$1" pin="VSS_3" pad="65"/>
+<connect gate="G$1" pin="AN38/SEG42/RPI36/SCL1/OCTRIG2/PMA22/CN43/RA14" pad="66"/>
+<connect gate="G$1" pin="AN39/SEG43/RPI35/SDA1/PMBE1/CN44/RA15" pad="67"/>
+<connect gate="G$1" pin="AN40/SEG13/RP2/RTCC/DMLN/OCTRIG1/PMA13/CN53/RD8" pad="68"/>
+<connect gate="G$1" pin="AN24/SEG14/RP4/DPLN/PMACK2/CN54/RD9" pad="69"/>
+<connect gate="G$1" pin="AN41/C3IND/SEG15/RP3/PMA15/CS2/CN55/RD10" pad="70"/>
+<connect gate="G$1" pin="AN42/OA2P0/C3INC/SEG16/RP12/PMA14/CS1/CN56/RD11" pad="71"/>
+<connect gate="G$1" pin="AN43/OA2N0/SEG17/RP11/VCMPST3/DMH/INT0/CN49/RD0" pad="72"/>
+<connect gate="G$1" pin="SOSCI/RC13" pad="73"/>
+<connect gate="G$1" pin="PWRLCLK/SOSCO/SCLKI/RPI37/RC14" pad="74"/>
+<connect gate="G$1" pin="VSS_4" pad="75"/>
+<connect gate="G$1" pin="AN35/SEG20/RP24/CN50/RD1" pad="76"/>
+<connect gate="G$1" pin="AN25/OA2N1/SEG21/RP23/DPH/PMACK1/CN51/RD2" pad="77"/>
+<connect gate="G$1" pin="AN44/OA2P4/SEG22/RP22/PMBE0/CN52/RD3" pad="78"/>
+<connect gate="G$1" pin="AN45/SEG44/RPI42/PMD12/CN57/RD12" pad="79"/>
+<connect gate="G$1" pin="AN46/SEG45/PMD13/CN19/RD13" pad="80"/>
+<connect gate="G$1" pin="AN47/OA1P4/SEG23/RP25/PMWR/CN13/RD4" pad="81"/>
+<connect gate="G$1" pin="AN48/OA1N1/SEG24/RP20/PMRD/CN14/RD5" pad="82"/>
+<connect gate="G$1" pin="AN34/OA1P2/C3INB/SEG25/PMD14/CN15/RD6" pad="83"/>
+<connect gate="G$1" pin="AN20/C3INA/SEG26/PMD15/CN16/RD7" pad="84"/>
+<connect gate="G$1" pin="VCAP" pad="85"/>
+<connect gate="G$1" pin="VBAT" pad="86"/>
+<connect gate="G$1" pin="COM7/SEG27/VCMPST1/PMD11/CN68/RF0" pad="87"/>
+<connect gate="G$1" pin="COM4/SEG47/VCMPST2/PMD10/CN69/RF1" pad="88"/>
+<connect gate="G$1" pin="SEG46/PMD9/CN78/RG1" pad="89"/>
+<connect gate="G$1" pin="SEG49/PMD8/CN77/RG0" pad="90"/>
+<connect gate="G$1" pin="AN23/SEG57/CN39/RA6" pad="91"/>
+<connect gate="G$1" pin="AN22/SEG58/PMA17/CN40/RA7" pad="92"/>
+<connect gate="G$1" pin="COM3/PMD0/CN58/RE0" pad="93"/>
+<connect gate="G$1" pin="COM2/PMD1/CN59/RE1" pad="94"/>
+<connect gate="G$1" pin="SEG59/CTED11/PMA16/CN81/RG14" pad="95"/>
+<connect gate="G$1" pin="SEG60/CN79/RG12" pad="96"/>
+<connect gate="G$1" pin="SEG61/CTED10/CN80/RG13" pad="97"/>
+<connect gate="G$1" pin="COM1/PMD2/CN60/RE2" pad="98"/>
+<connect gate="G$1" pin="COM0/CTED9/PMD3/CN61/RE3" pad="99"/>
+<connect gate="G$1" pin="HLVDIN/SEG62/CTED8/PMD4/CN62/RE4" pad="100"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="579-P24FJ128GC010IPT" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC24FJ128GC010-I-PT?qs=zOnbk8%2FsRx7kdYna3ZETyg%3D%3D" constant="no"/>
+<attribute name="Manufacturer_Name" value="Microchip" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="PIC24FJ128GC010-I/PT" constant="no"/>
+<attribute name="Description" value="Microchip PIC24FJ128GC010-I/PT, 16bit PIC Microcontroller, 32MHz, 128k B Flash, 100-Pin TQFP" constant="no"/>
+<attribute name="Height" value="1.2mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=PIC24FJ128GC010-I/PT
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=100
+Version=2.1
+Released=2017-10-24 13:39:05
+Downloaded=2024-02-15 01:45:01
+3D=Y

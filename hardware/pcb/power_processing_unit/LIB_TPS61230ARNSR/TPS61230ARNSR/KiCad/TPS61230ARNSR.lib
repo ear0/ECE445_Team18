@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS61230ARNSR
+#/624057/1162875/2.50/7/4/Undefined or Miscellaneous
+DEF TPS61230ARNSR U 0 30 Y Y 1 F N
+F0 "U" 950 300 50 H V L CNN
+F1 "TPS61230ARNSR" 950 200 50 H V L CNN
+F2 "RNS0007A" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tps61230a" 950 0 50 H I L CNN
+F4 "5-V/6-A High Efficiency Step-Up Converter in 2.0-mm x 2.0-mm QFN Package" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "595-TPS61230ARNSR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61230ARNSR?qs=LuYMPh7GGMSqI9Tmm1YDWQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS61230ARNSR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CBST 1 0 0 200 R 50 50 0 0 P
+X EN 2 0 -100 200 R 50 50 0 0 P
+X FB 3 0 -200 200 R 50 50 0 0 P
+X VIN 4 0 -300 200 R 50 50 0 0 P
+X SW 5 1100 0 200 L 50 50 0 0 P
+X GND 6 1100 -100 200 L 50 50 0 0 P
+X VOUT 7 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

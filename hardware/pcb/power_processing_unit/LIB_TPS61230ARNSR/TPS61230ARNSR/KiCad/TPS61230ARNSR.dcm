@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61230ARNSR
+D 5-V/6-A High Efficiency Step-Up Converter in 2.0-mm x 2.0-mm QFN Package
+K
+F http://www.ti.com/lit/gpn/tps61230a
+$ENDCMP
+#
+#End Doc Library

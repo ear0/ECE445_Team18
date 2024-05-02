@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SM74611KTTR
+#/289683/1162875/2.50/4/4/Diode
+DEF SM74611KTTR D 0 30 Y Y 1 F N
+F0 "D" 1450 300 50 H V L CNN
+F1 "SM74611KTTR" 1450 200 50 H V L CNN
+F2 "TO254P1524X483-4N" 1450 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/sm74611.pdf" 1450 0 50 H I L CNN
+F4 "Gate Drivers Smart Bypass Diode" 1450 -100 50 H I L CNN "Description"
+F5 "4.83" 1450 -200 50 H I L CNN "Height"
+F6 "595-SM74611KTTR" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SM74611KTTR?qs=KLh5H0KA3CMOyzy9HDzESA%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SM74611KTTR" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE_1 1 0 0 200 R 50 50 0 0 P
+X CATHODE_1 2 0 -100 200 R 50 50 0 0 P
+X ANODE_2 3 0 -200 200 R 50 50 0 0 P
+X CATHODE_2 4 1600 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

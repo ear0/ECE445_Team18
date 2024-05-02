@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS61288RQQR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-12-31-15:29:27)
+    (mountForm default
+        (footprintRef "TPS61288RQQR")
+        (spec "System")
+    )
+)

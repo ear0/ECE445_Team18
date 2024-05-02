@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADP150AUJZ_3.0_R7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADP150AUJZ-3.0-R7" (!) = "", "SOT95P280X100-5N", "SOT23 (5-Pin)", "584-ADP150AUJZ-3.0R7", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP150AUJZ-3.0-R7?qs=WIvQP4zGangxhggizMkemw%3D%3D", "ADP150AUJZ-3.0-R7", "https://www.arrow.com/en/products/adp150aujz-3.0-r7/analog-devices?region=nac", "Linear Voltage Regulators 150mA Ultra-Low Noise LDO 3.0 Vout", "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf", "1 mm"
+END_PART
+
+END.

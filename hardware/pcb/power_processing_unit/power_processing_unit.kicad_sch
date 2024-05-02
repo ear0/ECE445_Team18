@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2e67942f-2341-46a9-ad88-00604f53ddf1)
+
+  (paper "A5")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 80.645 46.355) (size 34.29 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 860d1d06-85eb-4f13-b5c4-ed1e2d09b1f2)
+    (property "Sheetname" "processing" (at 80.645 45.6434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "processing_stuff.kicad_sch" (at 80.645 67.2596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_processing_unit"
+        (path "/2e67942f-2341-46a9-ad88-00604f53ddf1" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 80.645 71.755) (size 34.29 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c90bb8f0-8822-411c-b0ee-ef540fa64cee)
+    (property "Sheetname" "power" (at 80.645 71.0434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_stuff.kicad_sch" (at 80.645 91.3896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_processing_unit"
+        (path "/2e67942f-2341-46a9-ad88-00604f53ddf1" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

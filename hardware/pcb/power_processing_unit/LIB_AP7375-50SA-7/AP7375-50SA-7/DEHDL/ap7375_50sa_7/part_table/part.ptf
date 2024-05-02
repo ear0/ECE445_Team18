@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP7375_50SA_7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP7375-50SA-7" (!) = "", "SOT96P240X110-3N", "SOT23 (3-Pin)", "621-AP7375-50SA-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7375-50SA-7?qs=t7xnP681wgX8yYKy1Pe5iA%3D%3D", "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K", "", "1.1 mm"
+END_PART
+
+END.

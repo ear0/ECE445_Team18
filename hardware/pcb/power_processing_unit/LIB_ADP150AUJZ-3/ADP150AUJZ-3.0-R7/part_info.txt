@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=ADP150AUJZ-3.0-R7
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=4.1
+Released=2022-02-08 14:16:41
+Downloaded=2024-01-26 07:13:12
+3D=Y

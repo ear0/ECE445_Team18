@@ -1,0 +1,16 @@
+.DR127-3R3-R :1 ;EATON COILTRONICS - DR127-3R3-R - INDUCTOR, 3.3UH, 10.5A, SMD
+INDPM125125X800N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN DR127-3R3-R
+~!Mouser Part Number (704-DR127-3R3-R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Coiltronics-Eaton/DR127-3R3-R?qs=yzwxPInThYRy49thz6gW5A%3D%3D)
+~!Manufacturer_Name (Eaton)
+~!Manufacturer_Part_Number (DR127-3R3-R)
+~!Link Datasheet (https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf)
+~!Height (8mm)
+~!3D_Model (DR127-3R3-R)
+DR127-3R3-R
+1.1!U 2.1!U 

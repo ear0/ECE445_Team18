@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DR127-3R3-R
+D EATON COILTRONICS - DR127-3R3-R - INDUCTOR, 3.3UH, 10.5A, SMD
+K
+F https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS61288RQQR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=15
+Version=1.4
+Released=2020-12-31 15:29:27
+Downloaded=2024-02-28 04:36:03
+3D=Y

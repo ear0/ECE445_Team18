@@ -1,0 +1,16 @@
+.61200621621 :1 ;Wurth Elektronik PCB Header WR-BHD, 6 Way, 2.54mm Pitch, 2 Row, Straight, Through Hole
+SHDR6W64P254_2X3_1528X910X910P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN 61200621621
+~!Mouser Part Number (710-61200621621)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61200621621?qs=PhR8RmCirEbjX8n1RKw4Jw%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (61200621621)
+~!Link Datasheet (https://katalog.we-online.de/em/datasheet/6120xx21621.pdf)
+~!Height (9.1mm)
+~!3D_Model (61200621621)
+"61200621621"
+1.1!U 3.1!U 5.1!U 2.1!U 4.1!U 6.1!U 

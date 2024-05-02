@@ -1,0 +1,16 @@
+.TPS61230ARNSR :1 ;5-V/6-A High Efficiency Step-Up Converter in 2.0-mm x 2.0-mm QFN Package
+RNS0007A
+*STM U
+*NGS
+*PLB 1="CBST" 2="EN" 3="FB" 4="VIN" 5="SW" 6="GND" 7="VOUT"
+*MXP 7
+*DFN TPS61230ARNSR
+~!Mouser Part Number (595-TPS61230ARNSR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61230ARNSR?qs=LuYMPh7GGMSqI9Tmm1YDWQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS61230ARNSR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps61230a)
+~!Height (-)
+~!3D_Model (TPS61230ARNSR)
+TPS61230ARNSR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

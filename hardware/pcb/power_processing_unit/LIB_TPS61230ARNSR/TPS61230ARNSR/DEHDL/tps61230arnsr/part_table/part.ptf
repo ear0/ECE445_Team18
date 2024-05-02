@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS61230ARNSR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Texas Instruments", "TPS61230ARNSR" (!) = "", "RNS0007A", "Other", "595-TPS61230ARNSR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61230ARNSR?qs=LuYMPh7GGMSqI9Tmm1YDWQ%3D%3D", "5-V/6-A High Efficiency Step-Up Converter in 2.0-mm x 2.0-mm QFN Package", "http://www.ti.com/lit/gpn/tps61230a"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP7375-50SA-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-27-09:23:30)
+    (mountForm default
+        (footprintRef "SOT96P240X110-3N")
+        (spec "System")
+    )
+)

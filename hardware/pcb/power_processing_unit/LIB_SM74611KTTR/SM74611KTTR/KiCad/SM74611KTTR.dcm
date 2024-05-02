@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM74611KTTR
+D Gate Drivers Smart Bypass Diode
+K
+F http://www.ti.com/lit/ds/symlink/sm74611.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_843950"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-12-13:18:32)
+    (utime 2023-10-04-11:37:36)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "DR127-3R3-R")
+)
+
+
+(pinAssign "ECS_843950"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-12-13:18:32)
+    (utime 2023-10-04-11:37:36)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_843950")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DR127-3R3-R")
+)
+
+
+(part "DR127-3R3-R"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-12-13:18:32)
+    (utime 2023-10-04-11:37:36)
+    (packageRef "DR127-3R3-R")
+    (pinAssignRef "ECS_843950")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "EATON COILTRONICS - DR127-3R3-R - INDUCTOR, 3.3UH, 10.5A, SMD")
+    (property "Mouser_Part_Number" "704-DR127-3R3-R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coiltronics-Eaton/DR127-3R3-R?qs=yzwxPInThYRy49thz6gW5A%3D%3D")
+    (property "Manufacturer_Name" "Eaton")
+    (property "Manufacturer_Part_Number" "DR127-3R3-R")
+    (property "Datasheet_Link" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf")
+    (property "compAreaTopHeight" 8)
+)
+
+

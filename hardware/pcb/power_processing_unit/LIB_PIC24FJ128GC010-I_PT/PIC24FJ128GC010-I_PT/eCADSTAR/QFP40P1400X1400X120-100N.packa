@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PIC24FJ128GC010-I_PT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-28-06:47:14)
+    (mountForm default
+        (footprintRef "QFP40P1400X1400X120-100N")
+        (spec "System")
+    )
+)

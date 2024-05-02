@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DR127-3R3-R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-12-13:18:32)
+    (mountForm default
+        (footprintRef "INDPM125125X800N")
+        (spec "System")
+    )
+)

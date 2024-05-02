@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SM74611KTTR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SM74611KTTR" (!) = "", "TO254P1524X483-4N", "TO-XXX (Inc. DPAK)", "595-SM74611KTTR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SM74611KTTR?qs=KLh5H0KA3CMOyzy9HDzESA%3D%3D", "Gate Drivers Smart Bypass Diode", "http://www.ti.com/lit/ds/symlink/sm74611.pdf", "4.83 mm"
+END_PART
+
+END.

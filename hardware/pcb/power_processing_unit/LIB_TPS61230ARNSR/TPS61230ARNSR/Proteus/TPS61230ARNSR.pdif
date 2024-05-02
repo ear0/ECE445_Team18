@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS61230ARNSR"
+   (description "5-V/6-A High Efficiency Step-Up Converter in 2.0-mm x 2.0-mm QFN Package")
+   (family "ANA")
+   (package "RNS0007A")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/tps61230a")
+   (attribute "Mouser Part Number" "595-TPS61230ARNSR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61230ARNSR?qs=LuYMPh7GGMSqI9Tmm1YDWQ%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS61230ARNSR")
+   (gate
+    (symbol "TPS61230ARNSR")
+    (pin "CBST" 1 PS)
+    (pin "EN" 2 PS)
+    (pin "FB" 3 PS)
+    (pin "VIN" 4 PS)
+    (pin "SW" 5 PS)
+    (pin "GND" 6 PS)
+    (pin "VOUT" 7 PS)
+   )
+  )
+  (symbol "TPS61230ARNSR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RNS0007A"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -1 1)
+      (pt 1 1)
+      (pt 1 -1)
+      (pt -1 -1)
+      (pt -1 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1 -1)
+      (pt 1 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -0.784 1.401) (pt -0.726 1.401)
+     )
+    )
+   )
+   (leg 1 (pt -0.75 0.9) (padstack 0))
+   (leg 2 (pt -0.25 0.9) (padstack 0))
+   (leg 3 (pt 0.25 0.9) (padstack 0))
+   (leg 4 (pt 0.75 0.9) (padstack 0))
+   (leg 5 (pt 0 0) (padstack 5))
+   (leg 6 (pt 0.75 -0.54) (padstack 6))
+   (leg 7 (pt -0.6 -0.54) (padstack 7))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.25 0.6 0 0 90))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.25 2.4 0 0 0))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.3 1.2 0 0 0))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.3 0.9 0 0 0))
+   )
+   (model "TPS61230ARNSR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

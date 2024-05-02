@@ -1,0 +1,80 @@
+{
+	"Name": "BP_antialiasing",
+	"Description": "BPF anti aliasing filter to kill LO leakage terms",
+	"Tool": "FW",
+	"Version": "1.2",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 20,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 8000,
+			"stopbandAttenuation": -40,
+			"stopbandFrequency": 40000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": "48",
+			"centerFrequency": 5000
+		},
+		"components": {
+			"vsPlus": 3.3,
+			"vsMinus": 0,
+			"optimization": "VoltageRange",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": true,
+			"preferredAlgorithms": {
+				"sallenKey|lowPass": "lowpassV2"
+			},
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 72,
+					"gain": 444,
+					"gainEnabled": true,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LTC6262"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 72,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LTC6262"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 72,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LTC6262"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				1,
+				2,
+				0
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "1%",
+			"capacitorTolerance": "5%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E6",
+			"capacitorPreferredSeries": "E6",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2024-02-28 07:06:16 PM",
+	"UpdatedDate": "2024-02-28 07:06:16 PM"
+}

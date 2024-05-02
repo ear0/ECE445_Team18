@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '61200621621'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "61200621621" (!) = "", "SHDR6W64P254_2X3_1528X910X910P", "Header, Shrouded - Straight PTH Box", "710-61200621621", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61200621621?qs=PhR8RmCirEbjX8n1RKw4Jw%3D%3D", "Wurth Elektronik PCB Header WR-BHD, 6 Way, 2.54mm Pitch, 2 Row, Straight, Through Hole", "https://katalog.we-online.de/em/datasheet/6120xx21621.pdf", "9.1 mm"
+END_PART
+
+END.
