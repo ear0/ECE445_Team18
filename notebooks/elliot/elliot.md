@@ -48,7 +48,7 @@ We do not have the OSHPark boards yet so we have focused on the power/processing
 I put together the new RF board and tried to test it, but something weird is going on. Somehow the first board I put together is immediately shorted in the PA section so I will have to explore more.
 
 ## 2024/04/16
-I understand what's going on with the amps, kind of. They are somehow not properly terminated and are oscillating. I have killed several amps already. We will probably need a new board.
+I understand what's going on with the amps, kind of. They are somehow not properly terminated and are oscillating. I have killed several amps already. We will probably need a new board. Next time, follow [these guidelines](https://www.guerrilla-rf.com/support/application/notes/amp-power-up-down-procedures) before powering on the amps.
 
 ![alt text](image-7.png)
 ## 2024/04/21
